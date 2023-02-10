@@ -1,0 +1,98 @@
+.App{
+  justify-content: center;
+  display: flex;
+  width: 90%;
+  height: 600px;
+  /* height: 100%; */
+  /* border: 2px solid black; */
+padding: 100px 10px ;
+}
+.header{
+  /* margin-top: -30px; */
+  position: relative;
+  left: 220px;
+  top: -120px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.RS{
+  float: right;
+  height: 33px;
+  color: #33d0a0;
+  background-color: #e5faf5;
+  padding-right: 30px;
+  padding-left: 7px;
+  font-weight: 350;
+  font-size: 18px;
+
+}
+
+.inputfield{
+  float: right;
+  background-color: #e5faf5;
+  border: none;
+  height: 30px;
+  color: #33d0a0;
+  font-weight: 400;
+  font-size: 15px;
+  width: 60px;
+
+}
+.slider{
+  
+  width: 50%;
+}
+
+.CalApp{
+  width: 100px;
+  width: 80%;
+  border: 2px solid  #ecedef;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -70px;
+  background-color: white;
+  padding-top: 30px ;
+}
+
+.table{
+  /* display: flex; */
+  justify-content: space-between;
+  border: none;
+}
+.details{
+  color:#c79fb1 !important;
+  width: 300px;
+  margin: 30px;
+  /* background-color: ; */
+}
+.value{
+color: #334c67;
+  text-align: right;
+  padding-top: -90px;
+  margin-top: -47px;
+}
+
+.pie{
+  float: right;
+  position: relative;
+  left:0px ;
+  bottom: 250px;
+}
+
+/* .TableCellText{
+  color: #2f26d7 !important;
+  background-color: green;
+  color: white !important;
+  font-size: 16px !important;
+} */
+
+/* .TableCellVal{
+  text-align: right !important;
+  font-size: 18px !important;
+} */
+
+@media (prefers-reduced-motion: no-preference){
+  .App-logo{
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
